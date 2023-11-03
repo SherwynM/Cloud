@@ -1,0 +1,236 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bing Chilling</title>
+    <style>
+        /* Updated CSS to center the menu items in the navigation bar */
+
+.logo h1 {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FF5722; /* Text color */
+    display: inline-block;
+    background-color: #222; /* Background color for the oval outline */
+    border-radius: 50%; /* Makes the background circular */
+    padding: 10px; /* Adjust the padding to control the oval size */
+}
+
+
+body {
+    background-color: #222; /* Dark matte black color */
+    font-family: Arial, sans-serif;
+}
+
+/* The rest of your CSS styles... */
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Center the menu items horizontally */
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+/* Add hover styles for the navigation links */
+.menu a:hover {
+    color: #FF5722; /* Change the color to your desired hover color */
+}
+
+.signin-button a {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Additional styles for the body content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FF5722;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+/* Additional styles for the band members' image */
+.band-members {
+    text-align: center;
+}
+
+.band-members img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Additional styles for the email link */
+.email-link {
+    color: red;
+    font-weight: bold;
+}
+/* Style the search bar in the navigation bar */
+/* Style the search bar in the navigation bar and move it to the right */
+/* Style the search bar in the navigation bar and move it to the right */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #968e8e;
+    border-radius: 5px;
+    margin-left: auto; /* Move the search bar to the right */
+    margin-right: 25px; /* Adjust the spacing as needed */
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    color: rgb(2, 2, 2);
+    padding: 5px 10px; /* Adjust the padding to move the input to the right */
+    font-size: 14px;
+    border-radius: 5px 0 0 5px; /* Rounded corners for the left side */
+    margin-right: 5px; /* Add margin to separate input from button */
+}
+
+.search-bar button {
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px 5px 5px 5px; /* Rounded corners for the right side */
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  
+      </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Bing Chilling</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search-bar">
+    <input type="text" placeholder="Search...">
+    <button type="submit">Search</button>
+</div>
+
+            <div class="signin-button">
+                <a href="https://www.google.com">Sign In</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to the world of Bing Chilling! We are a passionate band dedicated to creating music that resonates with your soul. Our journey began...</p>
+            <div class="band-members">
+                <img src="band.jpg" alt="Bing Chilling Band Members">
+            </div>
+        </section>
+        <section id="music">
+            <h2>Music</h2>
+            <p>Check out our latest tracks and albums on your favorite platforms:</p>
+            <ul>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                <li><a href="https://soundcloud.com/" target="_blank">SoundCloud</a></li>
+                <li><a href="https://open.spotify.com/" target="_blank">Spotify</a></li>
+            </ul>
+        </section>
+        <section id="concerts">
+            <h2>Upcoming Concerts</h2>
+            <p>Stay tuned for our upcoming live performances. Don't miss the chance to experience our music live!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, want to book us for a gig, or just want to say hello, feel free to get in touch with us:</p>
+            <p>Email: <a class="email-link" href="mailto:alex.shankar@science.christuniversity.in">Alex Prateek Shankar</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023 Bing Chilling</p>
+      </footer>
+      
+</body>
+</html>
